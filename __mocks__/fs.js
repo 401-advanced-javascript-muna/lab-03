@@ -9,3 +9,4 @@ exports.readFile = (file, cb) => {
   else {
     cb(undefined, new Buffer('File Contents'));
   }
+};

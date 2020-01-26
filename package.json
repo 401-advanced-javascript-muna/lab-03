@@ -6,7 +6,9 @@
   "scripts": {
     "start":"node edit-file.js",
     "test": "jest --verbose --coverage",
-    "test-watch": "jest --watchAll --coverage --verbose"
+    "test-watch": "jest --watchAll --coverage --verbose",
+    "lint": "eslint '**/*.js'"
+
 
   },
   "repository": {
